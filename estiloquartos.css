@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.menu{
+    position: fixed;
+    background-color: rgb(255, 253, 253);
+    width: 100%;
+    border-bottom: 1px solid #d5d5d5;
+}
+.menupos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between
+}
+.pousada{
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 24px;
+}
+.pousada p a{
+    color: #6592c9;
+}
+.link-home{
+    font-size: 24px;
+    color: #3d3d3d;
+    text-decoration: none;
+}
+.divstop{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 3%;
+    padding: 10px 15px;
+}
+.link-top{
+    padding: 15px;
+    font-size: 18px;
+    color: #3d3d3d;
+    text-decoration: none;
+}
+.intro{
+    background-image: url(./assets/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.introquarto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.introquarto h2{
+    font-size: 32px;
+    font-weight:400;
+    color: #3d3d3d;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.introquarto p{
+    font-size: 16px;
+    color: #3d3d3d;
+    padding: 5px;
+}
+.imgsquarto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.imgsquarto img{
+    height: 200px;
+    width: 33%;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding-bottom: 10px;
+}
+.infquarto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    color: #3d3d3d;
+}
+.infquarto h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.listaquarto{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.listaquarto li{
+    width: 25%;
+    text-align: left;
+    margin-top: 10px;
+}
+.rodape{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #49997d;
+    padding-top: 10px;
+}
+.rodape a{
+    text-decoration: none;
+}
+.rodape h4{
+    font-size: 22px;
+}
+.rodapeinfs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    padding: 5px;
+    margin-right: 10px;
+}
+.rodapeuni{
+    display: flex;
+    align-items: center;
+    width: 23%;
+}
+.copyright{
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #3b7863;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+}
+.rodapeuni img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
